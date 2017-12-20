@@ -2,9 +2,11 @@ package com.example.student.pum2
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
-import android.os.Bundle
 import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
+import android.os.Bundle
+import android.support.v4.app.BundleCompat
+import java.lang.Object
 
 class MainActivity : AppCompatActivity() {
 
@@ -14,7 +16,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
         btnZmien.setOnClickListener{
             val miasto = txtWpisz.text
 
@@ -22,10 +23,18 @@ class MainActivity : AppCompatActivity() {
 
         }
         btnMiejsca.setOnClickListener{
-
             val intent = Intent(this, SecondActivity::class.java)
+            intent.putExtra("data", txtMiasto.text)
+
             startActivity(intent)
+
+
+
         }
+
+
+
+
 
         }
     }

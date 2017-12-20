@@ -22,11 +22,11 @@
         />
 
     <TextView
-
+        android:id="@+id/txtMiasto1"
         android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Lista aktualnie jest niedostępna"
+        android:text="Lista aktualnie nie jest dostępna"
         android:textColor="@android:color/darker_gray"
         android:textAlignment="center"
         android:layout_margin="3dp"
