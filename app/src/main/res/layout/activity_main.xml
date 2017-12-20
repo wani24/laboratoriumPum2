@@ -10,19 +10,17 @@
     tools:context="com.example.student.pum2.MainActivity">
 
 
-
-
     <TextView
 
-        android:layout_gravity="center"
+        android:id="@+id/txtMiasto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Zabrze"
-        android:textColor="@android:color/white"
-        android:textAlignment="center"
+        android:layout_gravity="center"
         android:layout_margin="3dp"
-        android:textSize="25dp"
-        />
+        android:text="Zabrze"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
 
     <ImageView
         android:layout_width="match_parent"
@@ -69,37 +67,37 @@
         android:textSize="15dp"
         />
 
-<EditText
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    android:textAlignment="center"
-    android:layout_margin="3dp"
-    android:textColor="@android:color/white"
-    android:textSize="15dp"
-    />
+    <EditText
+        android:id="@+id/txtWpisz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
 
     <Button
+        android:id="@+id/btnZmien"
         android:layout_width="260dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
         android:text="ZMIEŃ MIEJSCE"
-        android:textColor="@android:color/holo_blue_light"
-        android:layout_gravity="center"
         android:textAlignment="center"
-        android:layout_margin="3dp"
 
-        />
+        android:textColor="@android:color/holo_blue_light" />
 
     <Button
+        android:id="@+id/btnMiejsca"
         android:layout_width="260dp"
         android:layout_height="wrap_content"
-        android:text="POKAŻ LISTĘ DOSTĘPNYCH MIEJSC"
-        android:textColor="@android:color/holo_blue_light"
         android:layout_gravity="center"
-        android:textAlignment="center"
         android:layout_margin="3dp"
+        android:text="POKAŻ LISTĘ DOSTĘPNYCH MIEJSC"
+        android:textAlignment="center"
 
-        />
+        android:textColor="@android:color/holo_blue_light" />
 
 
 </LinearLayout>
