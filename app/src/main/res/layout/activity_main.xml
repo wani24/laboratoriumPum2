@@ -1,19 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/holo_blue_light"
     tools:context="com.example.student.pum2.MainActivity">
 
+
+
+
     <TextView
-        android:layout_width="wrap_content"
+
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:text="Zabrze"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:layout_margin="3dp"
+        android:textSize="25dp"
         />
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:src="@drawable/ic_wb_sunny_black_24dp"
+        android:minHeight="100dp"
+        />
+
+    <TextView
+
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="30 stopni celcjusza"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:layout_margin="3dp"
+        android:textSize="15dp"
+        />
+
+    <TextView
+
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pamiętaj o filtrze"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:layout_margin="3dp"
+        android:textSize="15dp"
+        />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Podaj miejsce:"
+        android:textAlignment="center"
+        android:layout_margin="3dp"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"/>
+
+    
+
+</LinearLayout>
+
