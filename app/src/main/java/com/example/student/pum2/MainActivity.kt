@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
             val miasto = txtWpisz.text
 
             txtMiasto.text = miasto
+            
 
         }
         btnMiejsca.setOnClickListener{
